@@ -156,3 +156,17 @@
   }
 }
 
+@media (min-width: 576px) {
+  .navbar-container {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-container {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
