@@ -129,3 +129,6 @@ a:hover .icon {
   }
 }
 
+p a {
+  color: var(--violet);
+}
