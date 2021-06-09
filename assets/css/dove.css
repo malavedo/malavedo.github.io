@@ -116,8 +116,8 @@ a:hover .icon {
 }
 
 .presave:hover {
-  background: #2bf7ee;
-  box-shadow: 0px 0px 10px 2px #258abc;
+  background: #F405FD;
+  box-shadow: 0px 0px 10px 2px #77117a;
 }
 
 @media (max-width: 768px) {
