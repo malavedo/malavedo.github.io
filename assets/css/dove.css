@@ -20,9 +20,6 @@ body {
   padding: 15px;
 }
 
-.display-1 {
-}
-
 .cover-display {
   padding: 10px 25px;
 }
@@ -112,12 +109,15 @@ a:hover .icon {
 
 .presave {
   color: #1f2021;
+  background: #258abc;
   font-weight: bold;
   padding: 10px 0px;
   margin: 10px 25px;
 }
 
 .presave:hover {
+  background: #2bf7ee;
+  box-shadow: 0px 0px 10px 2px #258abc;
 }
 
 @media (max-width: 768px) {
