@@ -1,0 +1,134 @@
+:root {
+  --white: #ffffffff;
+  --light-violet: #a99ec2ff;
+  --violet: #a298f6ff;
+  --fluo-azure: #2bf7eeff;
+  --light-green: #25b0a9ff;
+  --light-blue: #258abcff;
+  --blue: #00368cff;
+  --purple: #5026a0ff;
+  --semi-black: #27282dff;
+  --rich-black: #000a0fff;
+}
+
+body {
+  background: radial-gradient(#2bf7eeff 0%, #25b0a9ff 25%, #258abcff 50%, #a298f6ff 77%, #a99ec2ff 98%);
+  padding: 0px 100px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding: 15px;
+}
+
+.display-1 {
+}
+
+.cover-display {
+  padding: 10px 25px;
+}
+
+.row {
+  margin: 10px 20px;
+}
+
+.block {
+  background: linear-gradient(rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.6) 100%);
+  box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.4);
+  padding: 25px 25px;
+  padding-bottom: 20px;
+  margin-left: -150px;
+  margin-right: -150px;
+}
+
+@media (min-width: 576px) {
+  .block {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .block {
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+p {
+  margin: 0px;
+  padding: 10px 25px;
+}
+
+.cover {
+  box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.4);
+  max-height: 65vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  padding: 10px 25px;
+}
+
+.prod {
+  margin-bottom: .5rem;
+}
+
+.description {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.track {
+  padding: 10px 0px;
+}
+
+.section-link {
+  margin-bottom: 0px;
+}
+
+.separator {
+  min-height: 100px;
+}
+
+h1.citazione, h2.citazione, h3.citazione, h4.citazione, h5.citazione, h6.citazione {
+  padding-bottom: 0px;
+  margin-bottom: -20px;
+  font-style: italic;
+}
+
+p.citazione {
+  padding-top: 0px;
+  margin: 0px;
+  font-style: italic;
+}
+
+.text-container {
+  margin-top: 5px;
+}
+
+a:hover .icon {
+  color: #5026a0;
+}
+
+.presave {
+  color: #1f2021;
+  background: #258abc;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin: 10px 25px;
+}
+
+.presave:hover {
+  background: #2bf7ee;
+  box-shadow: 0px 0px 10px 2px #258abc;
+}
+
+@media (max-width: 768px) {
+  .nav.navbar-nav.ml-auto {
+    margin-top: 20px;
+  }
+}
+
+p a {
+  color: var(--purple);
+}
