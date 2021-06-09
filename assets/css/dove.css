@@ -12,7 +12,7 @@
 }
 
 body {
-  background: radial-gradient(#EBF1FE 0%, #9DBAFC 35%, #8606FB 65%, #F405FD 75%, #FB8D27 85%, #370631 95%);
+  background: radial-gradient(#EBF1FE 0%, #9DBAFC 45%, #8606FB 75%, #F405FD 85%, #FB8D27 95%, #370631 98%);
   padding: 0px 100px;
 }
 
@@ -107,12 +107,12 @@ p.citazione {
 }
 
 a:hover .icon {
-  color: #FB8D27;
+  color: #5026a0;
 }
 
 .presave {
   color: #1f2021;
-  background: #B45904;
+  background: #258abc;
   font-weight: bold;
   padding: 10px 0px;
   margin: 10px 25px;
