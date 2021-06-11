@@ -132,6 +132,6 @@ a:hover .icon {
   }
 }
 
-p a {
+p a, .a {
   color: var(--purple);
 }
