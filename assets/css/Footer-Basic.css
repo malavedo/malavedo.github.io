@@ -59,3 +59,10 @@
   padding: 0px;
 }
 
+a {
+  color: #9DBAFC;
+}
+
+a:hover {
+  color: #EBF1FE;
+}
