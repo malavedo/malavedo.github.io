@@ -55,7 +55,7 @@ body {
 p {
   margin: 0px;
   padding: 10px 25px;
-  font-size: 150%;
+  font-size: 120%;
 }
 
 .cover {
@@ -68,7 +68,7 @@ p {
 }
 
 h1, .h1 {
-  font-size: 200%;
+  font-size: 300%;
 }
 
 .prod {
