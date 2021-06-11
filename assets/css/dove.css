@@ -55,7 +55,7 @@ body {
 p {
   margin: 0px;
   padding: 10px 25px;
-  font-size: large;
+  font-size: x-large;
 }
 
 .cover {
@@ -68,7 +68,7 @@ p {
 }
 
 h1 {
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .prod {
@@ -99,7 +99,7 @@ h1.citazione, h2.citazione, h3.citazione, h4.citazione, h5.citazione, h6.citazio
 }
 
 p.citazione {
-  padding-top: 0px;
+  padding-top: 10px;
   margin: 0px;
   font-style: italic;
 }
