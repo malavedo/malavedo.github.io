@@ -55,7 +55,7 @@ body {
 p {
   margin: 0px;
   padding: 10px 25px;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 .cover {
@@ -67,7 +67,7 @@ p {
   padding: 10px 25px;
 }
 
-h1 {
+h1, .h1 {
   font-size: 200%;
 }
 
@@ -134,8 +134,4 @@ a:hover .icon {
 
 p a {
   color: var(--purple);
-}
-
-.navigation-clean.navbar .navbar-nav .nav-link {
-  color: #77117a;
 }
