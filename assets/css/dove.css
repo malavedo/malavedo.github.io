@@ -55,7 +55,7 @@ body {
 p {
   margin: 0px;
   padding: 10px 25px;
-  font-size: x-large;
+  font-size: 200%;
 }
 
 .cover {
@@ -68,7 +68,7 @@ p {
 }
 
 h1 {
-  font-size: xx-large;
+  font-size: 200%;
 }
 
 .prod {
@@ -102,6 +102,7 @@ p.citazione {
   padding-top: 10px;
   margin: 0px;
   font-style: italic;
+  font-size: 130%;
 }
 
 .text-container {
@@ -136,5 +137,5 @@ p a {
 }
 
 .navigation-clean.navbar .navbar-nav .nav-link {
-  color: #F405FD;
+  color: #77117a;
 }
