@@ -55,6 +55,7 @@ body {
 p {
   margin: 0px;
   padding: 10px 25px;
+  font-size: large;
 }
 
 .cover {
@@ -64,6 +65,10 @@ p {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   padding: 10px 25px;
+}
+
+h1 {
+  font-size: x-large;
 }
 
 .prod {
@@ -128,4 +133,8 @@ a:hover .icon {
 
 p a {
   color: var(--purple);
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  color: #F405FD);
 }
